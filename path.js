@@ -1,6 +1,4 @@
-const path = {
-    PUBLIC: '/index.html',
+export default path = {
     HOME: '',
     VIDEO: '/video.html'
 }
-export default path

@@ -1,6 +1,7 @@
-const SidebarLeft = () => {
-    document.querySelector('.sidebar_left').innerHTML =
-        ` <!-- Pages List -->
+function SidebarLeft() {
+    const sidebarleft = document.querySelector(".sidebar_left");
+    sidebarleft.innerHTML = `
+                <!-- Pages List -->
                 <ul class="public_list">
                     <li class="public_item">
                         <a href="#" class="public_link"> <i class="fa-solid fa-house"></i> Trang chủ </a>
@@ -80,6 +81,6 @@ const SidebarLeft = () => {
                             <span class="public_span">Hiển thị thêm 10 mục</span>
                         </li>
                     </ul>
-                </div>`
+                </div>`;
 }
 SidebarLeft();

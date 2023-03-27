@@ -329,7 +329,7 @@ li {
     padding: 12px 0;
     display: flex;
     gap: 16px;
-    justify-content: start;
+    justify-content: center;
     width: 100%;
 }
 .main_short_item {
@@ -354,4 +354,11 @@ li {
     text-overflow: ellipsis;
     overflow: hidden;
     -webkit-box-orient: vertical;
+}
+@media screen and (min-width: 1496px) {
+}
+/* Video Css */
+.play_video {
+    padding-top: calc(var(--header-height) + 32px);
+    padding-left: 60px;
 }

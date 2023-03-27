@@ -1,9 +1,10 @@
-import path from "../path.js";
-const Header = () => {
-    document.querySelector('.header').innerHTML =
-        `<div class="header_start">
+function Header() {
+    const header = document.querySelector(".header");
+    header.innerHTML = `<div class="header_start">
                     <i class="fa-solid fa-bars header_icon"></i>
-                    <a href=${path.HOME} ><img class="logo_header" src="./assets/images/logo_youtube.png" alt="" /></a>
+                <a href="./" class="home_link">
+                <img class="logo_header" src="./assets/images/logo_youtube.png" alt="" />
+                </a>      
                 </div>
                 <div class="header_search">
                     <input type="text" class="search_input" placeholder="Tìm kiếm" />
@@ -24,6 +25,6 @@ const Header = () => {
                     <div class="avata_header">
                         <img class="avt_img" src="./assets/images/avt.jpg" alt="" />
                     </div>
-                </div>`
+                </div> `;
 }
 Header();
