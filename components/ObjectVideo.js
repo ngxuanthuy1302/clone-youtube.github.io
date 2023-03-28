@@ -29,4 +29,19 @@ export const arrvideo = [
         id: "bhlMOw-RGZo",
         imgVid: "phodalenden.webp",
     },
+    {
+        title: "SƠN TÙNG M-TP | HÃY TRAO CHO ANH ft. Snoop Dogg | Official MV",
+        id: "knW7-x7Y7RE",
+        imgVid: "haytraochoanh.webp",
+    },
+    {
+        title: "Những Điều Cần Biết Về Thế Giới Kimetsu No Yaiba",
+        id: "GI10BdeBw2w",
+        imgVid: "devilwebp.webp",
+    }, {
+        title: "[Góc Nhìn Phản Diện] #2: Kungfu Panda dưới con mắt của phản diện Tai Lung.",
+        id: "Erypd0Lkcb0",
+        imgVid: "kungfupd.webp",
+    },
+
 ];

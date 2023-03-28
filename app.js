@@ -2,3 +2,9 @@
 // let getwidthContent = mainContent.offsetWidth;
 // const line = document.querySelector('.line')
 // line.style.width = (getwidthContent * 3 + 16 * 2) + 'px';
+// function Begin() {
+//     if (window.location.pathname === '/') {
+//         document.querySelector('.tag_item').focus();
+//     }
+// }
+// Begin()
