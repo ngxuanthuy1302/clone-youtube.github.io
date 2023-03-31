@@ -1,10 +1,11 @@
 import { arrvideo } from "./ObjectVideo.js";
+import path from "../path.js";
 
 function ContentList() {
     const contentlist = document.querySelector(".main_content_list");
     for (let i = 0; i < arrvideo.length; i++) {
         contentlist.innerHTML += `     <li class="main_content_item">
-                            <a href="./video.html?${arrvideo[i].id}" class="main_content_link">
+                            <a href="${path.VIDEO}?${arrvideo[i].id}" class="main_content_link">
                                 <img src="./assets/images/${arrvideo[i].imgVid}" alt="" class="main_content_img" />
                             </a>
                             <div class="main_content_detail">

@@ -4,7 +4,7 @@ function SidebarLeft() {
                 <!-- Pages List -->
                 <ul class="public_list">
                     <li class="public_item">
-                        <a href="#" class="public_link"> <i class="fa-solid fa-house"></i> Trang chủ </a>
+                        <a href="./" class="public_link"> <i class="fa-solid fa-house"></i> Trang chủ </a>
                     </li>
                     <li class="public_item">
                         <a href="#" class="public_link"> <i class="fa-regular fa-map"></i> Shorts </a>

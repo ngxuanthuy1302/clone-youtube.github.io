@@ -8,3 +8,22 @@
 //     }
 // }
 // Begin()
+// const pages = document.querySelectorAll('.public_item');
+// for (let i = 0; i < 8; i++) {
+//     pages[i].addEventListener('click', () => {
+//         if (i == 0) {
+//             pages[i].classList.add('focus');
+//         }
+//         for (let j = 0; j < 8; j++) {
+//             pages[j].classList.remove('focus');
+//         }
+
+//     })
+// }
+// if (window.location.pathname === '/') {
+//     document.querySelector('.public_item').classList.add('focus');
+// } else {
+//     document.querySelector('.public_item').classList.remove('focus');
+// }
+// console.log(window.location.href);
+// console.log(window.location.pathname);

@@ -1,4 +1,5 @@
-export default path = {
+const path = {
     HOME: '',
-    VIDEO: '/video.html'
+    VIDEO: './video.html'
 }
+export default path
