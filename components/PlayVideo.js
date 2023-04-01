@@ -31,7 +31,7 @@ function Video() {
         }
     }
 }
-// Video();
+Video();
 //Change Height when resize web
 window.addEventListener('resize', () => {
     const frameVi = document.querySelector('.play_iframe');
