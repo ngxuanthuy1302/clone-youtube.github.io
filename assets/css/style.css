@@ -109,6 +109,7 @@ li {
 .search_data {
     position: absolute;
     width: 100%;
+    min-width: 300px;
     background-color: var(--background-color);
     top: 42px;
     border-radius: 10px;
