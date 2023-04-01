@@ -14,7 +14,7 @@ function Header() {
                             <ul class="search_list">
                                 <li class="search_item">
                                     <i class="bx bx-history"></i>
-                                    <span class="search_content_output">hãy trao cho anh</span>
+                                    <span onclick="test()" class="search_content_output">hãy trao cho anh</span>
                                     <span class="delete_search">Xóa</span>
                                 </li>
                                 <li class="search_item">
@@ -91,5 +91,15 @@ function ShowModal() {
     modalSideBar.classList.remove('hide')
     modalmain.classList.remove('animation-snart');
     modalmain.classList.add('animation-trans')
-
 }
+function test() {
+    const valueSearc = document.querySelector('.search_item');
+    const valueS = valueSearc.querySelector('.search_content_output');
+    console.log(valueS)
+    console.log('a');
+}
+// const inputS = document.querySelector('.search_input')
+// inputS.addEventListener('focus', () => {
+//     const valueSearc = document.querySelector('.search_item');
+//     const valueS = valueSearc.querySelector('.search_content_output');
+// })
